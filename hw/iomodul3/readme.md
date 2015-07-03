@@ -16,4 +16,4 @@ David Bauer, FabLab KA
 - Changed ARM from STM M0 to ATMEL SAM D21 (ARM M0)
 - added USB
 
-![Image of canable mod](https://github.com/fablab-ka/LabNet-Nodes/tree/master/hw/iomodul3/image.jpg?raw=true)
+![Image of canable mod](https://raw.github.com/fablab-ka/LabNet-Nodes/tree/master/hw/iomodul3/image.jpg)
