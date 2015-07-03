@@ -1,6 +1,6 @@
 # Node V2
 
-10'14 artwork by  
+### V2.0 10'14 artwork by  
 Sarah, Fablab KA  
 Florolf, Entropia KA  
 
