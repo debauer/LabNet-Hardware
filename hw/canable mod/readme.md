@@ -1,6 +1,3 @@
-# Original Design 
+# moved
 
-from Ethan Zonca. http://hg.protofusion.org/canable
-
-## modified Firmware of CANtact
-https://github.com/normaldotcom/CANtact
+https://github.com/fablab-ka/LabNet-canable

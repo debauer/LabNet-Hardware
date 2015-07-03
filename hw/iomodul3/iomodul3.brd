@@ -33,29 +33,29 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -149,49 +149,6 @@ David Bauer, Fablab KA</text>
 <wire x1="0" y1="48" x2="65" y2="48" width="0" layer="20"/>
 <text x="59.660003125" y="31.25" size="1.27" layer="126" rot="MR90">BR1</text>
 <text x="55.760009375" y="16.21" size="1.27" layer="126" rot="MR270">BR2</text>
-<text x="35.76" y="11.18199375" size="0.799996875" layer="125" ratio="15">C1</text>
-<text x="15.89999375" y="26.72999375" size="0.799996875" layer="125" ratio="15" rot="R270">C2</text>
-<text x="29.3600125" y="11.662003125" size="0.799996875" layer="125" ratio="15" rot="R90">C3</text>
-<text x="35.889996875" y="5.80750625" size="0.799996875" layer="125" ratio="15" rot="R270">C4</text>
-<text x="31.80999375" y="15.920009375" size="0.799996875" layer="125" ratio="15" rot="R180">C5</text>
-<text x="34.470009375" y="21.63000625" size="0.799996875" layer="125" ratio="15" rot="R180">C6</text>
-<text x="18.4999875" y="29.090009375" size="0.799996875" layer="125" ratio="15" rot="R270">C7</text>
-<text x="51.950009375" y="44.330009375" size="0.799996875" layer="125" ratio="15" rot="R180">C8</text>
-<text x="27.820009375" y="11.872009375" size="0.799996875" layer="125" ratio="15" rot="R90">C9</text>
-<text x="32.66000625" y="24.249990625" size="0.799996875" layer="125" ratio="15" rot="R180">C10</text>
-<text x="35.070009375" y="19.830009375" size="0.799996875" layer="125" ratio="15">C11</text>
-<text x="51.940003125" y="3.76999375" size="0.799996875" layer="125" ratio="15" rot="R180">C12</text>
-<text x="39.4200125" y="32.3699875" size="0.799996875" layer="125" ratio="15" rot="R180">C13</text>
-<text x="15.82300625" y="44.109996875" size="1.27" layer="125">C14</text>
-<text x="20.312990625" y="44.09000625" size="1.27" layer="125">C15</text>
-<text x="15.04" y="36.500003125" size="0.799996875" layer="125" ratio="15">C16</text>
-<text x="42.639996875" y="32.4429875" size="1.27" layer="125" rot="R90">C25</text>
-<text x="48.3100125" y="26.499996875" size="1.27" layer="125" rot="R90">CON1</text>
-<text x="48.430003125" y="5.260009375" size="1.27" layer="125" rot="R90">CON2</text>
-<text x="23.900003125" y="33.400009375" size="1.27" layer="125" rot="R180">D1</text>
-<text x="44.2729875" y="40.621990625" size="1.27" layer="125" ratio="10">D2</text>
-<text x="39.205003125" y="16.8140125" size="1.27" layer="125">IC1</text>
-<text x="22.940009375" y="14.92999375" size="1.27" layer="125" rot="R180">IC3</text>
-<text x="12.0800125" y="36.589996875" size="0.6096" layer="121">IC4</text>
-<text x="40.980003125" y="34.04600625" size="1.016" layer="125" rot="R180">IC5</text>
-<text x="40.313990625" y="27.66100625" size="1.27" layer="125" ratio="10">JP1</text>
-<text x="42.893996875" y="30.320996875" size="1.27" layer="125" ratio="10">JP2</text>
-<text x="28.110003125" y="45.030009375" size="1.27" layer="125">L3</text>
-<text x="63.740003125" y="25.7849875" size="1.27" layer="125" rot="R90">LED1</text>
-<text x="63.97500625" y="16.829990625" size="1.27" layer="125" rot="R90">LED2</text>
-<text x="37.0800125" y="18.08" size="1.016" layer="125" rot="R180">Q2</text>
-<text x="47.695003125" y="18.5999875" size="1.27" layer="125" rot="R180">R1</text>
-<text x="23.724996875" y="10.73500625" size="1.27" layer="125">R2</text>
-<text x="-26.035" y="30.625009375" size="1.27" layer="125" rot="R180">R3</text>
-<text x="37.48999375" y="5.767503125" size="0.799996875" layer="125" ratio="15" rot="R270">R4</text>
-<text x="-23.349990625" y="33.96500625" size="1.27" layer="125" rot="R180">R5</text>
-<text x="33.53000625" y="24.770003125" size="0.799996875" layer="125" ratio="15">R6</text>
-<text x="40.250009375" y="43.099990625" size="0.799996875" layer="125" ratio="15" rot="R180">R7</text>
-<text x="38.370003125" y="38.2500125" size="0.799996875" layer="125" ratio="15">R8</text>
-<text x="51.940003125" y="46.260003125" size="0.799996875" layer="125" ratio="15" rot="R180">R9</text>
-<text x="51.940003125" y="1.950009375" size="0.799996875" layer="125" ratio="15" rot="R180">R10</text>
-<text x="10.200996875" y="40.959990625" size="1.27" layer="125" ratio="10" rot="R270">SV1</text>
-<text x="10.95499375" y="12.100990625" size="1.27" layer="125" ratio="10">SWD</text>
 <text x="12.17" y="1" size="1.016" layer="1">CAN-IOModul, 06'15 artwork by
 Sarah, Fablab KA
 Florolf, Entropia KA
@@ -2164,15 +2121,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="PA00_XIN32">
 <contactref element="IC2" pad="1"/>
-<wire x1="18.669" y1="28.194" x2="21.209" y2="25.654" width="0.254" layer="1"/>
-<wire x1="21.209" y1="25.654" x2="21.209" y2="24.424" width="0.254" layer="1"/>
-<wire x1="21.209" y1="24.424" x2="21.125" y2="24.34" width="0.254" layer="1"/>
 </signal>
 <signal name="PA01_XOUT32">
 <contactref element="IC2" pad="2"/>
-<wire x1="18.669" y1="25.4" x2="20.193" y2="23.876" width="0.254" layer="1"/>
-<wire x1="20.193" y1="23.876" x2="21.089" y2="23.876" width="0.254" layer="1"/>
-<wire x1="21.089" y1="23.876" x2="21.125" y2="23.84" width="0.254" layer="1"/>
 </signal>
 <signal name="DGI_GPIO0">
 <contactref element="IC2" pad="22"/>
