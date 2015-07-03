@@ -1,4 +1,13 @@
-# Node V3.0
+# LabNet Hardware
+
+### LabNet-canable
+
+a fork of canable  
+Easy access the LabNet from any PC and integrate Raspberry PIs and Beaglebones in the Infrastructure.
+
+![Image of canable mod](https://github.com/fablab-ka/LabNet-canable/blob/master/image.jpg?raw=true)
+
+# Nodes
 
 ### iomodul V2.0 10'14 artwork by  
 Sarah, Fablab KA  
