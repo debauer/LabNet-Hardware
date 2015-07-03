@@ -5,4 +5,4 @@ Sarah, Fablab KA
 Florolf, Entropia KA  
 
 
-![Image of canable mod](https://raw.github.com/fablab-ka/LabNet-Nodes/tree/master/hw/iomodul2/image.jpg)
+![Image of node](http://abload.de/img/imagedkpbv.jpg)

@@ -11,4 +11,4 @@ David Bauer, FabLab KA
 - added and moved the LEDs
 - changed JTAG/SWD connector layout to fit ti the STM SWD
 
-![Image of canable mod](https://raw.github.com/fablab-ka/LabNet-Nodes/tree/master/hw/iomodul2.1/image.jpg)
+![Image of node](http://abload.de/img/image3aoeb.jpg)
