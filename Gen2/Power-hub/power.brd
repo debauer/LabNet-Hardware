@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.15875" altunitdist="mm" altunit="mm"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="dots" multiple="1" display="no" altdistance="0.15875" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2548,29 +2548,29 @@ Covered vias can be set in Masks (Limit).
 <elements>
 <element name="R1" library="rcl" package="R0603" value="10k" x="67.465" y="70.71" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.55875" y="69.78" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="109.53375" y="71.18625" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="146.36375" y="71.18625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="IC1" library="MYMCHIP" package="SO-8" value="MCP2551" x="65.47" y="75.08" smashed="yes" rot="R180">
 <attribute name="VALUE" x="61.03" y="68.7475" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP1" library="jumper" package="JP2" value="" x="68.78" y="61.84" smashed="yes" rot="R270">
-<attribute name="NAME" x="107.624" y="65.761" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="144.454" y="65.761" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="64.462" y="65.396" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="JP2" library="jumper" package="JP2" value="" x="73.00375" y="61.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="107.18775" y="63.341" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="144.01775" y="63.341" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="68.68575" y="65.456" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="K1" library="Wuerth_Speicherkarten-SockelWR-CRD" package="615064243321" value="615064243321" x="21.9075" y="33.49625" smashed="yes" rot="R270">
-<attribute name="VALUE" x="5.9575" y="36.52125" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="-30.8725" y="35.25125" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="K2" library="Wuerth_Speicherkarten-SockelWR-CRD" package="61400826021" value="61400826021" x="7.62" y="74.93" smashed="yes" rot="R270">
-<attribute name="NAME" x="-9.6515" y="81.262" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="4.1346" y="79.992" size="1.27" layer="27" rot="R270"/>
+<attribute name="NAME" x="-31.2415" y="78.722" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="-27.6154" y="79.992" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="K3" library="Wuerth_Speicherkarten-SockelWR-CRD" package="61400826021" value="61400826021" x="7.62" y="91.44" smashed="yes" rot="R270">
-<attribute name="NAME" x="-9.6515" y="92.692" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="4.1346" y="96.502" size="1.27" layer="27" rot="R270"/>
+<attribute name="NAME" x="-31.2415" y="90.152" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="-28.8854" y="96.502" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="MOD1" library="kim055l" package="KIM-055L" value="" x="29.21" y="78.26375" smashed="yes"/>
 <element name="U$2" library="SparkFun-Boards" package="ARDUINO_PRO_MINI" value="ARDUINO_PRO_MINI" x="63.5" y="83.34375" smashed="yes">
@@ -2692,11 +2692,11 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="56.53" y="36.902" size="1.27" layer="27"/>
 </element>
 <element name="K4" library="Wuerth_Elektronik_eiCan_Communication_Connectors" package="615016240521" value="615016240521" x="86.36" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="113.665" y="68.095" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="97.865" y="62.38" size="1.27" layer="27" rot="R90"/>
+<attribute name="NAME" x="150.495" y="68.095" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="139.775" y="63.65" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="J5" library="Eagle_TERMINAL_BLOCKS_rev16a" package="691332510012" value="" x="85.09" y="7.62" smashed="yes">
-<attribute name="NAME" x="110.49" y="22.86" size="1.27" layer="25"/>
+<attribute name="NAME" x="147.32" y="22.86" size="1.27" layer="25"/>
 <attribute name="VALUE" x="110.49" y="17.78" size="1.27" layer="25"/>
 </element>
 <element name="J6" library="Eagle_FUSEHOLDERS_rev16a" package="696101000002" value="" x="68.58" y="27.94" smashed="yes">
@@ -2794,7 +2794,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="50.292" y="7.366" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J8" library="Eagle_TERMINAL_BLOCKS_rev16a" package="691312510002" value="" x="94.77375" y="97.4725" smashed="yes" rot="R90">
-<attribute name="NAME" x="107.2865" y="94.27975" size="1.27" layer="25"/>
+<attribute name="NAME" x="144.1165" y="94.27975" size="1.27" layer="25"/>
 <attribute name="VALUE" x="106.76515" y="85.6965" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$1" library="schlager_ics" package="SOIC127P1034X264-18N" value="MCP2515-I/SO" x="80.01" y="85.09" smashed="yes" rot="R180">
@@ -2817,7 +2817,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MPN" value="" x="85.09" y="93.98" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="85.09" y="93.98" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1667008" x="85.09" y="93.98" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="83.97875" y="102.20325" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="85.24875" y="125.06325" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="80.01" y="90.043" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C5" library="schlager_passiv" package="C0805" value="" x="82.55" y="97.79" smashed="yes">
@@ -2829,7 +2829,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="88.519" y="100.076" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="IC2" library="1wire" package="TO92-" value="DS18B20" x="76.67625" y="94.77375" smashed="yes" rot="R270">
-<attribute name="NAME" x="79.5655" y="105.41" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="74.4855" y="125.73" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="72.86625" y="98.13925" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R26" library="schlager_passiv" package="R0805" value="" x="62.23" y="91.44" smashed="yes" rot="R90">
@@ -2841,7 +2841,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="VALUE" x="62.484" y="92.202" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CON2" library="myconn" package="MEBP" value="" x="94.13875" y="49.53" smashed="yes" rot="R90">
-<attribute name="NAME" x="94.96625" y="47.325" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="139.41625" y="54.945" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="R28" library="schlager_passiv" package="R0805" value="" x="77.47" y="53.34" smashed="yes">
 <attribute name="NAME" x="79.248" y="52.7685" size="1.27" layer="25"/>
@@ -2853,7 +2853,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MF" value="MAXIM" x="104.14" y="83.82" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="104.14" y="83.82" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="VALUE" x="64.80175" y="50.51425" size="1.27" layer="27" ratio="10"/>
-<attribute name="NAME" x="108.585" y="57.531" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="145.415" y="57.531" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="C7" library="schlager_passiv" package="C0805" value="" x="77.47" y="55.88" smashed="yes">
 <attribute name="NAME" x="79.4385" y="55.3085" size="1.27" layer="25"/>
