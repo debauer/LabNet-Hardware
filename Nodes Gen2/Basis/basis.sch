@@ -15676,7 +15676,7 @@ at 27/07/2012 14:02:49</description>
 <instance part="IC1" gate="G$1" x="320.04" y="76.2"/>
 <instance part="GND3" gate="1" x="320.04" y="63.5"/>
 <instance part="R1" gate="G$1" x="342.9" y="83.82" rot="R90"/>
-<instance part="GND14" gate="1" x="246.38" y="241.3"/>
+<instance part="GND14" gate="1" x="243.84" y="241.3"/>
 <instance part="R3" gate="G$1" x="251.46" y="243.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="254" y="246.9134" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="254" y="242.316" size="1.778" layer="96" rot="R180"/>
@@ -15775,6 +15775,7 @@ at 27/07/2012 14:02:49</description>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="243.84" y1="243.84" x2="246.38" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="337.82" y1="213.36" x2="335.28" y2="213.36" width="0.1524" layer="91"/>
@@ -16599,6 +16600,7 @@ at 27/07/2012 14:02:49</description>
 <segment>
 <pinref part="U$3" gate="A" pin="~RESET"/>
 <wire x1="38.1" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<label x="38.1" y="78.74" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
