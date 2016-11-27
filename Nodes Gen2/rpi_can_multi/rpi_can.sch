@@ -7364,6 +7364,66 @@ Created 2014-06-19, Karrer Zheng&lt;br&gt;
 <pad name="5" x="4" y="0" drill="1.016" diameter="1.3" rot="R90"/>
 <rectangle x1="3.746" y1="-0.254" x2="4.254" y2="0.254" layer="51"/>
 </package>
+<package name="1X03">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
+<package name="1X03/90">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
+<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
+<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
+<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
+<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
+<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PINHD2">
@@ -7388,6 +7448,17 @@ Created 2014-06-19, Karrer Zheng&lt;br&gt;
 <pin name="3" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="4" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="5" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+<symbol name="PINHD3">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7454,6 +7525,34 @@ Created 2014-06-19, Karrer Zheng&lt;br&gt;
 <connect gate="A" pin="3" pad="3"/>
 <connect gate="A" pin="4" pad="4"/>
 <connect gate="A" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-1X3" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINHD3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X03">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="/90" package="1X03/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7655,6 +7754,128 @@ J8</text>
 </deviceset>
 </devicesets>
 </library>
+<library name="Wuerth_TERMINAL_BLOCKS_rev16a">
+<description>&lt;BR&gt;Wurth Elektronik - Terminal Block Connectors&lt;br&gt;&lt;Hr&gt;
+&lt;BR&gt;&lt;BR&gt; 
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-405&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/eagle"&gt;http://www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither CadSoft nor WE-eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
+&lt;hr&gt;
+Eagle Version 6, Library Revision 2015c, 2015-06-02&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="691322310003">
+<description>&lt;b&gt;WR-TBL Serie 322 - 3.81mm Vertical PCB Header , 3 Pins</description>
+<wire x1="6.41" y1="8" x2="-6.41" y2="8" width="0.127" layer="21"/>
+<wire x1="-6.41" y1="8" x2="-6.41" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-6.41" y1="-1.2" x2="6.41" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="6.41" y1="-1.2" x2="6.41" y2="8" width="0.127" layer="21"/>
+<pad name="2" x="0" y="0" drill="1.4"/>
+<pad name="1" x="-3.81" y="0" drill="1.4"/>
+<pad name="3" x="3.81" y="0" drill="1.4"/>
+<text x="-10.2912" y="8.1909" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.2912" y="-4.5974" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="3">
+<wire x1="-1.651" y1="3.429" x2="-1.651" y2="1.651" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-1.651" y1="0.889" x2="-1.651" y2="-0.889" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-1.651" y1="-1.651" x2="-1.651" y2="-3.429" width="0.254" layer="94" curve="180" cap="flat"/>
+<text x="1.27" y="0.238" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="691322310003" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-TBL Serie 322 - 3.81mm Vertical PCB Header , 3 Pins&lt;/b&gt;=&gt;Code : Con_TBL_Pluggable_3.81_PCB_THT_Simple_691322310003
+&lt;br&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_TBL_Pluggable_3.81_PCB_THT_Simple_6913223100xx_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_TBL_Pluggable_3.81_PCB_THT_Simple_6913223100xx_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/en/em/691_322_310_0xx"&gt;http://katalog.we-online.de/en/em/691_322_310_0xx&lt;/a&gt;&lt;p&gt;
+Created 2014-06-19, Karrer Zheng&lt;br&gt;
+2014 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="691322310003">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7748,6 +7969,9 @@ J8</text>
 <part name="J1" library="Eagle_TERMINAL_BLOCKS_rev16a" deviceset="691322310002" device=""/>
 <part name="SUPPLY20" library="schlager_supply" deviceset="P24P" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
+<part name="J2" library="Wuerth_TERMINAL_BLOCKS_rev16a" deviceset="691322310003" device=""/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
+<part name="JP4" library="pinhead" deviceset="PINHD-1X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7868,6 +8092,9 @@ J8</text>
 <instance part="J1" gate="G$1" x="289.56" y="215.9"/>
 <instance part="SUPPLY20" gate="G$1" x="276.86" y="215.9" rot="R90"/>
 <instance part="GND22" gate="1" x="279.4" y="208.28"/>
+<instance part="J2" gate="G$1" x="332.74" y="180.34"/>
+<instance part="GND23" gate="1" x="320.04" y="172.72"/>
+<instance part="JP4" gate="A" x="337.82" y="180.34"/>
 </instances>
 <busses>
 </busses>
@@ -8050,6 +8277,15 @@ J8</text>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="284.48" y1="213.36" x2="281.94" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="213.36" x2="279.4" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="327.66" y1="180.34" x2="320.04" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="180.34" x2="320.04" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="2"/>
+<wire x1="327.66" y1="180.34" x2="335.28" y2="180.34" width="0.1524" layer="91"/>
+<junction x="327.66" y="180.34"/>
 </segment>
 </net>
 <net name="P5V" class="0">
@@ -8327,21 +8563,37 @@ J8</text>
 <wire x1="307.34" y1="167.64" x2="307.34" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="152.4" x2="309.88" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="1"/>
-<wire x1="309.88" y1="167.64" x2="340.36" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="167.64" x2="322.58" y2="167.64" width="0.1524" layer="91"/>
 <junction x="309.88" y="167.64"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="322.58" y1="167.64" x2="340.36" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="182.88" x2="322.58" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="182.88" x2="322.58" y2="167.64" width="0.1524" layer="91"/>
+<junction x="322.58" y="167.64"/>
+<pinref part="JP4" gate="A" pin="1"/>
+<wire x1="335.28" y1="182.88" x2="327.66" y2="182.88" width="0.1524" layer="91"/>
+<junction x="327.66" y="182.88"/>
 </segment>
 </net>
 <net name="RS485_B" class="0">
 <segment>
 <pinref part="CON1" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="165.1" x2="312.42" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="165.1" x2="325.12" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="8"/>
+<wire x1="325.12" y1="165.1" x2="312.42" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="149.86" x2="312.42" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="B"/>
 <wire x1="312.42" y1="149.86" x2="340.36" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="154.94" x2="307.34" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="165.1" x2="312.42" y2="149.86" width="0.1524" layer="91"/>
 <junction x="312.42" y="149.86"/>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="327.66" y1="177.8" x2="325.12" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="177.8" x2="325.12" y2="165.1" width="0.1524" layer="91"/>
+<junction x="325.12" y="165.1"/>
+<pinref part="JP4" gate="A" pin="3"/>
+<wire x1="335.28" y1="177.8" x2="327.66" y2="177.8" width="0.1524" layer="91"/>
+<junction x="327.66" y="177.8"/>
 </segment>
 </net>
 <net name="N$3" class="0">

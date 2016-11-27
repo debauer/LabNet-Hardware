@@ -7308,6 +7308,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="157.48" y1="152.4" x2="177.8" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="152.4" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
 <junction x="177.8" y="152.4"/>
+<label x="185.42" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -7324,6 +7325,7 @@ Low profile connectors, straight&lt;p&gt;
 <junction x="175.26" y="137.16"/>
 <pinref part="SW2" gate="G$1" pin="3"/>
 <junction x="157.734" y="137.16"/>
+<label x="185.42" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -7338,6 +7340,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="157.48" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
 <junction x="172.72" y="121.92"/>
+<label x="185.42" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -7851,6 +7854,18 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="SV1" gate="1" pin="2"/>
 <wire x1="38.1" y1="215.9" x2="45.72" y2="215.9" width="0.1524" layer="91"/>
 <label x="38.1" y="215.9" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="U$1" gate="A" pin="INTA"/>
+<wire x1="203.2" y1="213.36" x2="208.28" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="U$1" gate="A" pin="INTB"/>
+<wire x1="208.28" y1="210.82" x2="203.2" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

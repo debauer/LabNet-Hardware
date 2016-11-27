@@ -28,12 +28,12 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -197,27 +197,6 @@
 <hole x="97" y="3" drill="3.2"/>
 <hole x="43" y="45" drill="3.2"/>
 <hole x="43" y="3" drill="3.2"/>
-<text x="95.25" y="16.51" size="1.27" layer="21" rot="R90" align="center-left">Design: David Bauer</text>
-<text x="97.155" y="16.51" size="1.27" layer="21" rot="R90" align="center-left">www.debauer.net</text>
-<text x="99.06" y="16.51" size="1.27" layer="21" rot="R90" align="center-left">www.fablab-karlsruhe.de</text>
-<wire x1="67.31" y1="0" x2="67.31" y2="33.02" width="0.15" layer="21"/>
-<wire x1="67.31" y1="33.02" x2="85.725" y2="33.02" width="0.15" layer="21"/>
-<wire x1="85.725" y1="33.02" x2="85.725" y2="0" width="0.15" layer="21"/>
-<text x="55.88" y="10.16" size="1.778" layer="21" align="center">1Wire</text>
-<text x="55.88" y="7.62" size="1.778" layer="21" align="center">D</text>
-<text x="53.34" y="7.62" size="1.778" layer="21" align="center">G</text>
-<text x="58.42" y="7.62" size="1.778" layer="21" align="center">5</text>
-<wire x1="52.07" y1="2.54" x2="52.07" y2="11.58875" width="0.15" layer="21"/>
-<wire x1="52.07" y1="11.58875" x2="59.69" y2="11.58875" width="0.15" layer="21"/>
-<wire x1="59.69" y1="11.58875" x2="59.69" y2="2.54" width="0.15" layer="21"/>
-<text x="39.52875" y="44.1325" size="1.778" layer="21" rot="R90" align="center">RS485</text>
-<text x="30.95625" y="25.4" size="1.778" layer="21" align="center">CAN</text>
-<text x="17.78" y="0.9525" size="1.27" layer="21" align="center">PWR</text>
-<text x="10.4775" y="36.67125" size="1.4224" layer="21" align="center">5V 5A</text>
-<text x="84.1375" y="40.3225" size="1.27" layer="21" rot="R90" align="center">MCP2515</text>
-<text x="52.705" y="41.43375" size="1.27" layer="21" rot="R90" align="center">MCP2551</text>
-<wire x1="74.13625" y1="46.0375" x2="74.13625" y2="35.2425" width="0.15" layer="21"/>
-<wire x1="80.80375" y1="46.0375" x2="80.80375" y2="35.2425" width="0.15" layer="21"/>
 </plain>
 <libraries>
 <library name="schlager_passiv">
@@ -2267,17 +2246,6 @@ at 27/07/2012 14:02:49</description>
 </package>
 </packages>
 </library>
-<library name="debauer_special">
-<packages>
-<package name="LABNET">
-<text x="-4.445" y="-0.15875" size="1.778" layer="21" font="vector">LabNet</text>
-<wire x1="-4.7625" y1="2.06375" x2="5.08" y2="2.06375" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-0.635" x2="4.7625" y2="-0.635" width="0.127" layer="21"/>
-<circle x="-5.08" y="2.06375" radius="0.22450625" width="0.127" layer="21"/>
-<circle x="5.08" y="-0.635" radius="0.22450625" width="0.127" layer="21"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2470,34 +2438,39 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="RESET" library="Illuminated_Switches" package="434351045816" value="434351045816" x="98.26625" y="10.00125" smashed="yes" rot="R90">
-<attribute name="NAME" x="95.5675" y="10.00125" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="96.05075" y="7.52895" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="105.43485" y="19.27645" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="IC1" library="schlager_ics" package="TO-92" value="DS1820TO92" x="19.05" y="45.56125" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.46225" y="45.5295" size="1.27" layer="25" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="14.986" y="46.7995" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="14.351" y="64.92875" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R1" library="schlager_passiv" package="M0805" value="4k7" x="19.05" y="40.48125" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.05" y="42.06875" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="20.066" y="42.799" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="20.066" y="42.76725" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R3" library="rcl" package="R0603" value="10k" x="57.15" y="37.62375" smashed="yes">
-<attribute name="NAME" x="57.15" y="36.195" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="56.03875" y="35.40125" size="1.27" layer="25"/>
 <attribute name="VALUE" x="57.94375" y="50.8" size="1.27" layer="27"/>
 </element>
 <element name="IC2" library="MYMCHIP" package="SO-8" value="MCP2551" x="59.69" y="39.37" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.59525" y="42.71875" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="59.69" y="45.22" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP2" library="jumper" package="JP2" value="" x="42.545" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="40.894" y="16.764" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="46.863" y="16.764" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="JP3" library="jumper" package="JP2" value="" x="42.545" y="11.43" smashed="yes" rot="R90">
+<attribute name="NAME" x="40.894" y="7.874" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="46.863" y="7.874" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="K4" library="Wuerth_Elektronik_eiCan_Communication_Connectors" package="615016240521" value="615016240521" x="30.48" y="14.2875" smashed="yes">
+<attribute name="NAME" x="53.8075" y="-11.43" size="1.27" layer="25"/>
 <attribute name="VALUE" x="25.55" y="-22.6175" size="1.27" layer="27"/>
 </element>
 <element name="U$1" library="SparkFun-Boards" package="ARDUINO_PRO_MINI" value="ARDUINO_PRO_MINI" x="76.5175" y="16.51" smashed="yes" rot="R180">
+<attribute name="NAME" x="40.9575" y="15.24" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="80.645" y="23.1775" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U$3" library="schlager_ics" package="SOIC127P1034X264-18N" value="MCP2515-I/SO" x="77.47" y="40.64" smashed="yes">
@@ -2506,10 +2479,11 @@ design rules under a new name.</description>
 <attribute name="MPN" value="MCP2515-I/SO" x="44.45" y="93.98" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="SUPPLIER" value="Microchip" x="44.45" y="93.98" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="OC_FARNELL" value="1292239" x="44.45" y="93.98" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="NAME" x="39.5224" y="7.9248" size="2.0828" layer="25" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="68.1736" y="49.8856" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="C2" library="schlager_passiv" package="C0805" value="100n" x="57.15" y="27.94" smashed="yes">
-<attribute name="NAME" x="57.15" y="26.3525" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="58.19775" y="26.924" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="56.261" y="25.654" size="1.27" layer="27"/>
 </element>
 <element name="Q1" library="crystal" package="HC49/S" value="" x="67.31" y="40.64" smashed="yes" rot="R90">
@@ -2517,15 +2491,15 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="41.91" y="-13.97" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="MF" value="" x="41.91" y="-13.97" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1667008" x="41.91" y="-13.97" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="NAME" x="70.51675" y="40.64" size="1.27" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="47.65675" y="39.37" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="71.247" y="35.56" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C5" library="schlager_passiv" package="C0805" value="22p" x="63.34125" y="37.62375" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.75375" y="37.62375" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="61.18225" y="38.6715" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="61.05525" y="38.51275" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C6" library="schlager_passiv" package="C0805" value="22p" x="63.34125" y="43.815" smashed="yes" rot="R90">
-<attribute name="NAME" x="61.75375" y="43.815" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="62.32525" y="42.6085" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="65.62725" y="42.926" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="MOD1" library="kim055l" package="KIM-055L" value="" x="10.31875" y="23.01875" smashed="yes" rot="R90"/>
@@ -2534,14 +2508,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="17.018" y="5.334" size="1.27" layer="27"/>
 </element>
 <element name="LED9" library="led" package="LED3MM" value="" x="17.78" y="3.81" smashed="yes">
+<attribute name="NAME" x="15.39875" y="0.381" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="19.685" y="2.159" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="JP1" library="pinhead" package="1X08" value="" x="92.71" y="10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="94.6912" y="-15.3162" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="95.885" y="0" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="CON1" library="myconn" package="MEBP" value="" x="30.48" y="39.37" smashed="yes" rot="R180"/>
+<element name="CON1" library="myconn" package="MEBP" value="" x="30.48" y="39.37" smashed="yes" rot="R180">
+<attribute name="NAME" x="66.975" y="-9.17375" size="1.27" layer="25" rot="R180"/>
+</element>
 <element name="R2" library="schlager_passiv" package="R0805" value="1M" x="19.05" y="38.1" smashed="yes">
-<attribute name="NAME" x="19.05" y="36.35375" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="17.81175" y="35.941" size="1.27" layer="25"/>
 <attribute name="VALUE" x="18.288" y="35.814" size="1.27" layer="27"/>
 </element>
 <element name="IC3" library="maxim" package="SO08" value="MAX481CSA" x="57.15" y="31.75" smashed="yes" rot="R90">
@@ -2550,39 +2528,30 @@ design rules under a new name.</description>
 <attribute name="MF" value="MAXIM" x="57.15" y="31.75" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="57.15" y="31.75" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="51.46675" y="34.7345" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="56.5785" y="33.17875" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="C1" library="schlager_passiv" package="C0805" value="100n" x="86.36" y="45.24375" smashed="yes">
-<attribute name="NAME" x="86.36" y="46.99" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="90.424" y="44.196" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="85.471" y="42.95775" size="1.27" layer="27"/>
 </element>
-<element name="JP7" library="pinhead" package="2X04" value="" x="48.26" y="5.08" smashed="yes" rot="R90">
-<attribute name="VALUE" x="52.705" y="0" size="1.27" layer="27" rot="R90"/>
-</element>
-<element name="JP4" library="pinhead" package="1X08" value="" x="46.99" y="38.1" smashed="yes" rot="R270">
-<attribute name="VALUE" x="43.815" y="48.26" size="1.27" layer="27" rot="R270"/>
-</element>
-<element name="JP5" library="pinhead" package="1X08" value="" x="92.71" y="38.1" smashed="yes" rot="R270">
-<attribute name="VALUE" x="89.535" y="48.26" size="1.27" layer="27" rot="R270"/>
-</element>
+<element name="JP7" library="pinhead" package="2X04" value="" x="48.26" y="5.08" rot="R90"/>
+<element name="JP4" library="pinhead" package="1X08" value="" x="46.99" y="38.1" rot="R270"/>
+<element name="JP5" library="pinhead" package="1X08" value="" x="92.71" y="38.1" rot="R270"/>
 <element name="C3" library="schlager_passiv" package="C0805" value="" x="57.15" y="44.92625" smashed="yes" rot="R180">
-<attribute name="NAME" x="57.15" y="46.51375" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="58.3565" y="47.244" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="58.039" y="47.21225" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="JP6" library="pinhead" package="1X03/90" value="" x="55.88" y="0.635" smashed="yes" rot="R180">
-<attribute name="VALUE" x="50.165" y="4.445" size="1.27" layer="27" rot="R270"/>
+<element name="JP6" library="pinhead" package="1X03/90" value="" x="55.88" y="0.635" rot="R180"/>
+<element name="C8" library="PASSIV_Panasonic-EEEFK_EEEFP" package="CAPAE830X1050N" value="100UF" x="9.8425" y="40.48125" rot="R180">
+<attribute name="PACKAGE" value="CASE-F" x="9.8425" y="40.48125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="82K7638" x="9.8425" y="40.48125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="±20 %" x="9.8425" y="40.48125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="EEE-FK1V101P" x="9.8425" y="40.48125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER" value="PANASONIC" x="9.8425" y="40.48125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGERATING" value="35V" x="9.8425" y="40.48125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="9695869  " x="9.8425" y="40.48125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C8" library="PASSIV_Panasonic-EEEFK_EEEFP" package="CAPAE830X1050N" value="100UF" x="10.16" y="42.8625" smashed="yes" rot="R180">
-<attribute name="PACKAGE" value="CASE-F" x="10.16" y="42.8625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="82K7638" x="10.16" y="42.8625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="±20 %" x="10.16" y="42.8625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="EEE-FK1V101P" x="10.16" y="42.8625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER" value="PANASONIC" x="10.16" y="42.8625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGERATING" value="35V" x="10.16" y="42.8625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="9695869  " x="10.16" y="42.8625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.382" y="44.39285" size="2.0828" layer="25" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="15.6972" y="49.4919" size="2.0828" layer="27" ratio="10" rot="SR180"/>
-</element>
-<element name="C7" library="PASSIV_Panasonic-EEEFK_EEEFP" package="CAPAE830X1050N" value="100UF" x="10.16" y="5.08" smashed="yes" rot="R180">
+<element name="C7" library="PASSIV_Panasonic-EEEFK_EEEFP" package="CAPAE830X1050N" value="100UF" x="10.16" y="5.08" rot="R180">
 <attribute name="PACKAGE" value="CASE-F" x="10.16" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="82K7638" x="10.16" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="±20 %" x="10.16" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2590,26 +2559,17 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER" value="PANASONIC" x="10.16" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGERATING" value="35V" x="10.16" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="9695869  " x="10.16" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.54075" y="6.61035" size="2.0828" layer="25" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="15.6972" y="11.7094" size="2.0828" layer="27" ratio="10" rot="SR180"/>
 </element>
-<element name="U1" library="Atmel_By_element14_Batch_1-00" package="SOIC127P600X175-8N" value="AT24C64CN-SH-B" x="61.595" y="14.605" smashed="yes">
+<element name="U1" library="Atmel_By_element14_Batch_1-00" package="SOIC127P600X175-8N" value="AT24C64CN-SH-B" x="61.595" y="14.605">
 <attribute name="PACKAGE" value="SOIC-8" x="61.595" y="14.605" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="OC_NEWARK" value="-" x="61.595" y="14.605" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MPN" value="AT24C64CN-SH-B" x="61.595" y="14.605" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="SUPPLIER" value="Atmel" x="61.595" y="14.605" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="OC_FARNELL" value="1362658" x="61.595" y="14.605" size="1.778" layer="27" font="vector" display="off"/>
-<attribute name="VALUE" x="58.1406" y="20.1168" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="C4" library="schlager_passiv" package="C0805" value="100n" x="64.29375" y="21.9075" smashed="yes" rot="R90">
-<attribute name="NAME" x="62.70625" y="21.9075" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="66.57975" y="21.0185" size="1.27" layer="27" rot="R90"/>
-</element>
-<element name="U$2" library="debauer_frames" package="KALT!ELEKTRONIK" value="" x="54.9275" y="20.32"/>
+<element name="C4" library="schlager_passiv" package="C0805" value="100n" x="64.29375" y="19.52625" rot="R90"/>
+<element name="U$2" library="debauer_frames" package="KALT!ELEKTRONIK" value="" x="76.35875" y="12.54125" rot="R90"/>
 <element name="U$4" library="debauer_frames" package="KALT!ELEKTRONIK" value="" x="76.5175" y="15.5575" rot="MR270"/>
-<element name="U$5" library="debauer_special" package="LABNET" value="" x="76.2" y="6.35" rot="R180"/>
-<element name="U$7" library="debauer_special" package="LABNET" value="" x="50.165" y="29.68625" rot="R270"/>
-<element name="U$8" library="debauer_special" package="LABNET" value="" x="57.94375" y="10.795" rot="MR180"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2715,10 +2675,10 @@ design rules under a new name.</description>
 <contactref element="C4" pad="1"/>
 <wire x1="64.0588" y1="16.51" x2="64.29375" y2="16.51" width="0.254" layer="1"/>
 <wire x1="64.29375" y1="16.51" x2="64.29375" y2="17.4625" width="0.254" layer="1"/>
-<wire x1="64.29375" y1="17.4625" x2="64.29375" y2="21.0575" width="0.254" layer="1"/>
+<wire x1="64.29375" y1="17.4625" x2="64.29375" y2="18.67625" width="0.254" layer="1"/>
 <via x="64.29375" y="17.4625" extent="1-16" drill="0.4"/>
 <wire x1="17.78" y1="45.56125" x2="17.78" y2="43.02125" width="0.4064" layer="1"/>
-<wire x1="13.2842" y1="42.8625" x2="18.1" y2="40.48125" width="0.4064" layer="1"/>
+<wire x1="12.9667" y1="40.48125" x2="18.1" y2="40.48125" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$13">
 </signal>
